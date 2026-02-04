@@ -1,53 +1,43 @@
-/**
- * Below are the colors that are used in the app. The colors are defined in the light and dark mode.
- * There are many other ways to style your app. For example, [Nativewind](https://www.nativewind.dev/), [Tamagui](https://tamagui.dev/), [unistyles](https://reactnativeunistyles.vercel.app), etc.
- */
-
-import { Platform } from 'react-native';
-
-const tintColorLight = '#0a7ea4';
-const tintColorDark = '#fff';
-
-export const Colors = {
-  light: {
-    text: '#11181C',
-    background: '#fff',
-    tint: tintColorLight,
-    icon: '#687076',
-    tabIconDefault: '#687076',
-    tabIconSelected: tintColorLight,
-  },
-  dark: {
-    text: '#ECEDEE',
-    background: '#151718',
-    tint: tintColorDark,
-    icon: '#9BA1A6',
-    tabIconDefault: '#9BA1A6',
-    tabIconSelected: tintColorDark,
-  },
+export const COLORS = {
+  primary: "#6B4AF0", // Vibrant Purple
+  primaryLight: "#9D85F5",
+  secondary: "#00E0FF", // Cyan/Teal accent if needed
+  black: "#000000",
+  dark: "#0F0F0F", // Main Background
+  card: "#1A1A1A", // Transaction Item background
+  accent: "#BB86FC",
+  white: "#FFFFFF",
+  gray: "#79747b",
+  textPrimary: "#FFFFFF",
+  textSecondary: "#AFAFAF",
+  success: "#4ADE80",
+  error: "#F87171",
+  purple: "#6B38FB",
+  // Legacy Aliases
+  typo: "#AFAFAF",
+  main: "#0F0F0F",
+  semiDark: "#1A1A1A",
 };
 
-export const Fonts = Platform.select({
-  ios: {
-    /** iOS `UIFontDescriptorSystemDesignDefault` */
-    sans: 'system-ui',
-    /** iOS `UIFontDescriptorSystemDesignSerif` */
-    serif: 'ui-serif',
-    /** iOS `UIFontDescriptorSystemDesignRounded` */
-    rounded: 'ui-rounded',
-    /** iOS `UIFontDescriptorSystemDesignMonospaced` */
-    mono: 'ui-monospace',
-  },
-  default: {
-    sans: 'normal',
-    serif: 'serif',
-    rounded: 'normal',
-    mono: 'monospace',
-  },
-  web: {
-    sans: "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif",
-    serif: "Georgia, 'Times New Roman', serif",
-    rounded: "'SF Pro Rounded', 'Hiragino Maru Gothic ProN', Meiryo, 'MS PGothic', sans-serif",
-    mono: "SFMono-Regular, Menlo, Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace",
-  },
-});
+export const GRADIENTS = {
+  primary: ["#6B38FB", "#3E1FD0"],
+  card: ["#8257FF", "#6B38FB"],
+} as const;
+
+export const FONTS = {
+  family: "Ubuntu",
+};
+
+export const SPACING = {
+  xs: 4,
+  sm: 8,
+  md: 16,
+  lg: 24,
+  xl: 32,
+};
+
+export const BORDER_RADIUS = {
+  sm: 4,
+  md: 7.68,
+  lg: 12,
+};

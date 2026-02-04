@@ -1,0 +1,50 @@
+{
+  "projects": [
+    {
+      "id": "1",
+      "name": "Frentix Wallet",
+      "description": "A premium wallet application design study.",
+      "cover": "https://picsum.photos/seed/frentix/800/600",
+      "projectType": "Frontend",
+      "publishedAt": "2024-02-04"
+    },
+    {
+      "id": "2",
+      "name": "Portfolio App",
+      "description": "My personal portfolio developed with React Native.",
+      "cover": "https://picsum.photos/seed/portfolio/800/600",
+      "projectType": "Full Stack",
+      "publishedAt": "2024-01-15"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "title": "Unlocking the Power of React Native",
+      "description": "Deep dive into the latest features of React Native and how to leverage them for mobile apps.",
+      "picture": "https://picsum.photos/seed/react/800/600",
+      "createdAt": "2024-02-01"
+    },
+    {
+      "id": "2",
+      "title": "Design Principles for Fintech Apps",
+      "description": "Exploring UI/UX patterns that build trust and clarity in financial applications.",
+      "picture": "https://picsum.photos/seed/fintech/800/600",
+      "createdAt": "2024-01-20"
+    }
+  ],
+  "skills": [
+    {
+      "id": "1",
+      "name": "React Native",
+      "type": "Frontend",
+      "imageUrl": "https://cdn.worldvectorlogo.com/logos/react-native-1.svg"
+    },
+    {
+      "id": "2",
+      "name": "TypeScript",
+      "type": "Frontend",
+      "imageUrl": "https://cdn.worldvectorlogo.com/logos/typescript.svg"
+    }
+  ]
+}
